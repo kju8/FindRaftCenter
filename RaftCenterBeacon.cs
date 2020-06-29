@@ -31,7 +31,7 @@ public class RaftCenterBeacon : Mod
         Raft raft = ComponentManager<Raft>.Value;
         if(raft != null){
             marker.transform.SetParent(raft.gameObject.transform, false);
-            RConsole.Log("FindRaftCenter has been loaded!");
+            RConsole.Log("Raft Center Beacon has been loaded!");
         }
     }
 
@@ -72,7 +72,7 @@ public class RaftCenterBeacon : Mod
         {
             assets.Unload(true);
         }
-        RConsole.Log("FindRaftCenter has been unloaded!");
+        RConsole.Log("Raft Center Beacon has been unloaded!");
         Destroy(gameObject);
     }
 }
