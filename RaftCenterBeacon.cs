@@ -11,7 +11,7 @@ using System;
 [ModVersion("1.6")]
 [RaftVersion("Update 11 (4677160)")]
 [ModIsPermanent(false)]
-public class FindRaftCenter : Mod
+public class RaftCenterBeacon : Mod
 {
     AssetBundle assets;
     GameObject cylinderAsset;
